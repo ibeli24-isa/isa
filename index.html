@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<!--<link rel="stylesheet" type="text/css" href="bootstrap/index.html">
+	<link rel="stylesheet" type="text/css" href="bootstrap/styles.css">-->
+	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="js/funciones.js"></script>
+	<script src="https://kit.fontawesome.com/87cfff902a.js" crossorigin="anonymous"></script>
+	<title></title>
+</head>
+<body>
+
+
+<header>
+		<style >
+			body {
+				background-image:url('img/portada.jpg');
+				background-size: cover;
+			}
+		</style>
+	<div class="modelo"><h2> <a href="sesion.html">iniciar sesión</a> </h2></div>
+	<div class="titulo" ><h1> SEDRAGA</h1> 
+		<h3>C o n o c e &nbsp;   t ú &nbsp;  R o p a</h3>
+		<h2><center>Miles de historias en lo que vestimos.</center></h2> <br><br>
+	</div>
+	
+	<div class="buscador">
+		<input type="text" name="buscador" id="buscador" placeholder="Buscador" required>
+		
+		<div class="lupa"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></div>
+	</div>
+		<div class="container-icon">
+			<div class="container-cart-icon">
+					<svg
+					xmlns="fa-sharp fa-solid fa-bag-shopping"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="icon-cart"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+					/>
+				</svg>
+				<div class="circulo-negro">
+					<span id="contador-productos">0</span>
+				</div>
+
+			</div>
+			
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product">
+					<div class="cart-product">
+						<div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1</span>
+                            <span class="imagen-producto-carrito"><img
+						src="img/ropa.png"/></span>
+                            <p class="titulo-producto-carrito">Pantalones <br><br> para toda ocasión</p>
+                            <span class="precio-producto-carrito">$80</span>
+                            
+                        </div>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="icon-close"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M6 18L18 6M6 6l12 12"
+							/>
+						</svg>
+					</div>	
+					</div>
+					
+                    <div class="cart-total">
+                        <h3>Total:</h3>
+                        <span class="total-pagar">$200</span>
+                        <button class="pago">pagar</button><br>
+                       
+                    </div>
+                     <div class="gracias pelo"><p><i><center>!!gracias por tu compra¡¡</center> </i></p></div><br><br>
+                    <p class="cart-empty">El carrito está vacío</p>
+
+				</div>
+			</div>
+					
+		</header>
+		<br> <br> <br>
+
+		<div class="movimiento"><div class="container">
+				<img class="control prev" src="img/img1.png" alt="">
+				<div class="slider">
+					<img src="img/p3.png">
+					<img src="img/p1.png">
+					<img src="img/ropa.png">
+					<img src="img/p2.png">
+					<img src="img/c2.png">
+					<img src="img/sueter.png">
+					<img src="img/zapatos.png">
+
+
+				</div>
+				<img class="control next" src="img/img2.png" alt="">
+			</div></div>
+		<br><br>
+<div class="padre-items">
+	
+	<div class="container-items">
+			
+			<div class="item">
+				<figure class="pp" id="pps">
+					<img src="img/ropa.png"/>
+					<div class="capa06">
+						<h1>PANTALONES</h1>
+						<p>!comodos pantalones verdes para hombre que lucen bien a cualquier momento¡ <br> Tallas: 32-33 y 33-34 <br> PARA HOMBRE Y MUJER</p>
+					</div>
+				</figure>
+
+				<div class="info-product">
+					<h2>Pantalones</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+
+
+				
+			</div>
+
+			<div class="item">
+				<figure class="pp1">
+					<img src="img/c1.png"/>
+					<div class="capa06">
+						<h1>PANTALONES</h1>
+						<p>!lo mejor del día¡ combina todos tus atuendos con nuestra playera <br> Tallas: 32-33 y 33-34 <br> PARA HOMBRE Y MUJER</p>
+					</div>
+				</figure>
+				<div class="info-product">
+					<h2>playera</h2>
+					<p class="price">$50</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure class="pp2">
+					<img src="img/sueter.png"/>
+					<div class="capa06">
+						<h1>PANTALONES</h1>
+						<p>!comodos pantalones verdes para hombre que lucen bien a cualquier momento¡ <br> Tallas: 32-33 y 33-34 <br> PARA HOMBRE Y MUJER</p>
+					</div>
+				</figure>
+				<div class="info-product">
+					<h2>Sueter</h2>
+					<p class="price">$20</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure class="pp3">
+					<img src="img/p1.png"/>
+					<div class="capa06">
+						<h1>PANTALONES</h1>
+						<p >!comodos pantalones verdes para hombre que lucen bien a cualquier momento¡ <br> Tallas: 32-33 y 33-34 <br> PARA HOMBRE Y MUJER</p>
+					</div>
+				</figure>
+				<div class="info-product">
+					<h2>Jeans</h2>
+					<p class="price">$50</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure class="pp4">
+					<img src="img/zapatos.png"/>
+					<div class="capa06">
+						<h1>PANTALONES</h1>
+						<p>!comodos pantalones verdes para hombre que lucen bien a cualquier momento¡ <br> Tallas: 32-33 y 33-34 <br> PARA HOMBRE Y MUJER</p>
+					</div>
+				</figure>
+				<div class="info-product">
+					<h2>Zapato</h2>
+					<p class="price">$50</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure class="pp5">
+					<img src="img/c2.png"/>
+					<div class="capa06">
+						<h1>PANTALONES</h1>
+						<p>!comodos pantalones verdes para hombre que lucen bien a cualquier momento¡ <br> Tallas: 32-33 y 33-34 <br> PARA HOMBRE Y MUJER</p>
+					</div>
+				</figure>
+				<div class="info-product">
+					<h2>Playera Negra</h2>
+					<p class="price">$50</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure class="pp6">
+					<img src="img/p3.png"/>
+					<div class="capa06">
+						<h1>PANTALONES</h1>
+						<p>!comodos pantalones verdes para hombre que lucen bien a cualquier momento¡ <br> Tallas: 32-33 y 33-34 <br> PARA HOMBRE Y MUJER</p>
+					</div>
+				</figure>
+				<div class="info-product">
+					<h2>Pans Verde</h2>
+					<p class="price">$50</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure class="pp7">
+					<img src="img/p2.png"/>
+					<div class="capa06">
+						<h1>hola</h1>
+						<p>!comodos pantalones verdes para hombre que lucen bien a cualquier momento¡ <br> Tallas: 32-33 y 33-34 <br> PARA HOMBRE Y MUJER</p>
+					</div>
+				</figure>
+				<div class="info-product">
+					<h2>Playera Oscura</h2>
+					<p class="price">$50</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+		
+
+		</div>
+</div>
+        <script src="index.js"></script>
+	
+<hr>
+<br><br>
+
+
+<div class="face">
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v16.0" nonce="n7BRxwYc"></script>
+
+
+<div class="fb-comments" data-href="https://www.facebook.com/100092469924989/posts/pfbid05d9wHpMP9xWmWS3N1JCX1iCbHvpqzHCnNphMdQ7SkVdB6VSSEo39V1fU4cpFx3yDl/?app=fbl" data-width="100%" data-numposts="5"></div>
+
+</div>
+
+
+
+
+
+
+
+</body>
+<script src="js/main.js"></script>
+</html>
